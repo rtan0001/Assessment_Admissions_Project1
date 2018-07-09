@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="344716" started-at="2018-04-26T04:43:19Z" finished-at="2018-04-26T04:49:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@2096442d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="344716" started-at="2018-04-26T04:43:19Z" finished-at="2018-04-26T04:49:04Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@2096442d]" name="setUpClass" is-config="true" duration-ms="137" started-at="2018-04-26T14:43:19Z" finished-at="2018-04-26T14:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@2096442d]" name="feature" duration-ms="159726" started-at="2018-04-26T14:43:19Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-04-26T14:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CRM Case To Email to check Send Email function works well in CRM and check enquiry status changed from Closed to Open]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@2096442d]" name="feature" duration-ms="32937" started-at="2018-04-26T14:45:59Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-04-26T14:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CRM Move case from one queue to another queue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@2096442d]" name="feature" duration-ms="151784" started-at="2018-04-26T14:46:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-04-26T14:49:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CRM Email To Case An Enquiry And Link/unlink ACP to prevent Error Validations]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@2096442d]" name="tearDownClass" is-config="true" duration-ms="84" started-at="2018-04-26T14:49:04Z" finished-at="2018-04-26T14:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

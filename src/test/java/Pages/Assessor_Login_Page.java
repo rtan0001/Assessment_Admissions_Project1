@@ -146,9 +146,19 @@ public class Assessor_Login_Page extends BaseUtil {
     }
 
 
-    public void LogOut_Sandbox()
-    {
+    public void Click_Logout() throws Throwable {
 
+
+         driver.findElement(By.xpath("//*[@class='tooltipTrigger tooltip-trigger uiTooltip']/span[1]/div/span")).click();
+
+         Thread.sleep(2000);
+
+         driver.findElement(By.xpath("//*[@class='userProfilePanel uiPanel--default uiPanel positioned south open active']/div[1]/div[1]/div/div[2]/div/a[2]")).click();
+    }
+
+    public void Close_Browser()
+    {
+        driver.close();
     }
 
 

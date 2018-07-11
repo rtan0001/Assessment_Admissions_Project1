@@ -38,7 +38,7 @@ public class Assessment_LoginStep extends BaseUtil {
     @When("^I click login should be successfully logon into sandbox$")
     public void iClickLoginShouldBeSuccessfullyLogonIntoSandbox() throws Throwable {
         login_page.Click_Login();
-        Thread.sleep(5000);
+        Thread.sleep(7000);
     }
 
 
@@ -70,11 +70,12 @@ public class Assessment_LoginStep extends BaseUtil {
 
     }
 
-    @Then("^I logout from the a(\\d+) sandbox$")
-    public void iLogoutFromTheASandbox(int arg0) throws Throwable {
+    @Then("^I Logout from sandbox Environment$")
+    public void iLogoutFromSandboxEnvironment() throws Throwable {
 
-
+        Thread.sleep(2000);
+        login_page.Click_Logout();
+        Thread.sleep(3000);
+        login_page.Close_Browser();
     }
-
-
 }

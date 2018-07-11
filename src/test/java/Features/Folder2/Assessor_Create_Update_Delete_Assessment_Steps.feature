@@ -14,6 +14,8 @@ Feature: Assessor can be able to edit delete and create new steps from Assessmen
     Then I can be able Create a New Assessment Step
     Then I can be able to Edit and update Assessment Steps
     Then I can be able to Delete Assessment Steps
+    Then I Logout from sandbox Environment
+
 
 
     Examples:

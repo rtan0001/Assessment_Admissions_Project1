@@ -210,15 +210,20 @@ public class Assessment_Edit_Update_Delete_Steps_Page extends BaseUtil {
 
 
  public void Update_Comments_AssessmentSteps()
- {
+    {
 
 
-     WebElement Comments_Element  =  driver.findElement(By.xpath("/html/body/div[5]/div/div/div[3]/div/div/div/section[2]/div/div[2]/div/div/div/div/div[2]/div/div[2]/div/section[2]/div"));
+        WebElement Comments_Element  =  driver.findElement(By.xpath("/html/body/div[5]/div/div/div[3]/div/div/div/section[2]/div/div[2]/div/div/div/div/div[2]/div/div[2]/div/section[2]/div"));
 
-     Comments_Element.findElement(By.xpath("//*[@class='slds whitebg cAssessmentChecklist']/div[2]/div[3]/div[2]/div/div/textarea")).sendKeys("Application Fee Verified");
+        Comments_Element.findElement(By.xpath("//*[@class='slds whitebg cAssessmentChecklist']/div[2]/div[3]/div[2]/div/div/textarea")).sendKeys("Application Fee Verified");
 
 
- }
+    }
+
+
+
+
+
 
  public void Save_Updated_Task_Details()
  {
@@ -228,7 +233,14 @@ public class Assessment_Edit_Update_Delete_Steps_Page extends BaseUtil {
 
  }
 
-
+//
+//    public void Save_Updated_ApplicationDocument_Task_Details()
+//    {
+//        WebElement Element  =  driver.findElement(By.xpath("/html/body/div[5]/div/div/div[3]/div/div/div/section[2]/div/div[2]/div/div/div/div/div[2]/div/div[2]/div/section[2]/div"));
+//
+//        Element.findElement(By.xpath("//*[@class='slds whitebg cAssessmentChecklist']/div[2]/div[1]/div[2]/div/button[1]")).click();
+//
+//    }
 
  public void Delete_Assessment_Step()   {
      WebElement ele1 = driver.findElement(By.xpath("/html/body/div[5]/div/div/div[3]/div/div/div/section[2]/div/div[2]/div/div/div/div/div[2]/div/div[2]/div/section[2]/div/div/div[2]/div/div[2]"));
